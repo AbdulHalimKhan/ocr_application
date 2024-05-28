@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>OCR Result</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-5">OCR Result</h1>
+    <div class="preview-box">
+        <h2>Preview</h2>
+        <div class="ocr-text">
+            {{ ocr_text }}
+        </div>
+    </div>
+    <a href="/download/txt" class="btn btn-success">Download as TXT</a>
+    <a href="/download/docx" class="btn btn-success">Download as DOCX</a>
+</div>
+<footer>
+    <p>&copy; OCR by MAHK</p>
+</footer>
+</body>
+</html>
